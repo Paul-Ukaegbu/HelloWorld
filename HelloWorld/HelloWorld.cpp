@@ -2,6 +2,13 @@
 //
 
 #include <iostream>
+using namespace std;
+
+void square() {
+    cout << "just testing this function";
+
+}
+
 
 int main()
 {
@@ -10,5 +17,21 @@ int main()
     double tempc;
     tempc = (tempf - 32) / 1.8;
     std::cout << "The temp is " << tempc << " degrees Celsius.\n";
+
+
+
+    std::cout << "How are you?\n";
+    square();
+
     return 0;
+
 }
+
+
+
+
+
+
+
+
+
